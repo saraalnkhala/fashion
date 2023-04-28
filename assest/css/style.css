@@ -1,0 +1,212 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+
+
+}
+section.hero {
+  background-image: url(../img/Background.png);
+  height: 100vh;
+  ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+section.hero div.cectcontnet {
+  position: absolute;
+  bottom: 15%;
+  left: 70%;
+
+
+
+}
+
+.img-fluid{
+background-image: url(../img/Background.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-color:#E0E9F2;
+height: 100vh;
+width: 100%;
+overflow: hidden;
+position: relative;
+
+}
+.img-fluid button{
+  height: 40px;
+  width: 132px;
+  background-color: #22262A;
+  color: aliceblue;
+}
+.img-fluid button:hover{
+  border: solid 2px black;
+  background-color:transparent;
+  color: #22262A;
+  
+}
+ .pp1 .col{
+position: absolute;
+  margin: 20% 60%;
+  }
+.prouducts .content .bb1{
+bottom: 60px;
+left: 20px;
+position: absolute;
+
+color: #22262A;
+background-color:  #fff;
+
+}
+.prouducts .content .bb1 button{
+  padding: 10px;
+}
+.prouducts .content .bb1 button:hover{
+background-color: transparent;
+}
+/* ARRIVALS */
+
+.ARRIVALS h2{
+  text-align: center;
+  position: relative;
+}
+.ARRIVALS h2::after{
+  content:"";
+  width: 10%;
+  height: 3px;
+  background-color: var(--oragrn);
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translate(-50% , 0);
+
+}
+
+.ARRIVALS .card{
+transition: 0.5s;
+
+}
+.ARRIVALS .card:hover{
+ box-shadow: 0 0 20px 0px var(--gray);
+
+}
+.ARRIVALS .card button{
+  opacity: 0;
+  transition: 0.5s;
+
+}
+.ARRIVALS .card:hover button{
+  opacity: 1;
+  transform: translateY(20px);
+  margin-bottom: 30px;
+}
+.ARRIVALS .card{
+position: relative;
+
+}
+@media (max-width : 768px) {
+
+  section.hero div.cectcontnet {
+  position: absolute;
+  bottom: 50%;
+  left: 10%;
+
+
+
+}}
+
+.ARRIVALS h6 {
+  color: var(--oragrn);
+} 
+
+.driss .container .ms2{
+position: relative;
+
+}
+.driss .container .ms2 .tex2{
+  position: absolute;
+  left: 18%;
+bottom: 10%;
+  text-decoration: underline;
+  }
+  .driss .container .ms2 .im2{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    padding: 10px;
+    
+    }
+    .driss .container .im2{
+    
+      background-color:#fff;
+    }
+
+          .ssm{
+             margin-bottom: 30%;
+        margin: 20% 0;
+          }
+          section.herosect div.cectcontnet {
+            position: absolute;
+            bottom: 15%;
+            left: 70%;
+        
+        
+        
+        }section.holder {
+          background-image: url(../img/Rectangle.png);
+          height: 100vh;
+          ;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+        }
+        section.holder div.cectcontnet {
+          position: absolute;
+          bottom: 15%;
+          left: 10%;
+  
+        
+        }
+        .footer{
+       
+          background-color:#ddeffa;
+        }
+        .b a{
+        
+          text-decoration: none;
+          color: #000;
+        }
+        .footer .card{
+       border: none;
+          background-color:#ddeffa;
+        }
+        .n111 a{
+          text-decoration: none;
+          color: black;
+  
+        }
+        .n222 a{
+          text-decoration: none;
+          color: black;
+
+        }
+        .n333 a{
+          text-decoration: none;
+          color: black;
+
+        }
+        .aa1 {
+          font-size: 25px;
+        }
+        .fff{
+         display: flex;
+         justify-content: center;
+          background-color:#E7F5F8;
+          height: 6vh;
+          width: 100%;
+          
+        }
